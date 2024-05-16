@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header section img {
+    height: 50px;
+    width: 60px;
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(24, 49, 71);
+    padding: 10px 80px;
+}
+
+header nav ul {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 15px 25px;
+}
+
+header nav ul li {
+    margin-left: 50px;
+}
+
+header nav ul :hover {
+    background-color:  rgb(10, 32, 63);lue;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 15px;    
+}
+
+footer {
+
+    background-color: rgb(24, 49, 71);
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 80px;
+
+
+}
+
+footer  ul {
+    list-style: none;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    background-color: rgb(10, 32, 63);lue;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+footer h3 {
+    color: white;
+    border-left: 3px solid rgb(12, 145, 63);
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+.icon {
+    margin-right: 10px;
+
+}
+
+main{
+    padding: 50px 80px;
+    background-color: black;
+    color: gray;
+
+}
+
+.Harness-section {
+    display: flex;
+}
+
+.Harness-section img {
+    height: 350px;
+    width: 350px;
+}
+
+.Harness-section h1 {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 56px;
+}
+
+.service-section {
+    padding: 35px 0px;
+}
+
+.service-section img {
+    height: 450px;
+    width: 450px;
+}
+
+.service-user {
+    display: flex;
+    padding: 25px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-card img {
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+    /* margin-right: -90%; */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+ }
+
+.user-card {
+    background-color:  rgb(24, 49, 71);
+    padding: 25px;
+    height: 200px;
+    width: 450px;
+    color: green;
+}
+
+.user-card h3 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.User-Experience {
+    display: flex;
+    align-items: center;
+}
+
+.User-Experience-divesion {
+    background-color:  rgb(24, 49, 71);
+    padding: 25px;
+    height: 200px;
+    width: 450px;
+    
+}

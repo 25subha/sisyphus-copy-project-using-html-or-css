@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header img {
+    height: 50px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  rgb(24, 49, 71);
+    color: white;
+    padding: 10px 80px 10px 80px;
+}
+
+header img:hover {
+    cursor: pointer;
+    padding: 5px;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 5px 10px;
+    margin-left: 50px;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(10, 32, 63);lue;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(24, 49, 71);
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 80px;
+
+}
+/* footer section */
+footer  ul {
+    list-style: none;
+}
+
+footer ul li:hover {
+    cursor: pointer;
+    background-color: rgb(10, 32, 63);lue;
+    padding: 2px;
+    border-radius: 15px;
+}
+
+footer h3 {
+    color: white;
+    border-left: 3px solid rgb(12, 145, 63);
+    padding-left: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer input {
+    padding: 10px;
+    border-radius: 8px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+.icon {
+    margin-right: 10px;
+
+}
+main {
+    padding: 50px 80px;
+        background-color: black;
+        color: gray;
+
+    }
+
+.pmain {
+    font-size: 30px;
+}    
+
+main h1 {
+    color: white;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+.hero-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-div h1 {
+    font-size: 40px;
+}
+
+.hero-div p {
+    font-size: 30px;
+}
+.hero-div img {
+    height: 350px;
+    width: 350px;
+}
+
+.highlight {
+    color: rgb(50, 116, 50);
+}
+
+.services-card img  {
+    height: 30px;
+    width: 35px;
+}
+
+.services-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.services-card {
+    background-color:  rgb(24, 49, 71);
+    padding: 80px 15px;
+    text-align: center;
+    color: rgb(36, 99, 36);
+    border-radius: 8px;
+}
+
+.services-card section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: -105px;
+    padding: 10px;
+}
+
+.services-card h2 {
+    color: white;
+    padding-bottom:15px ;
+}
+.mid-services-card {
+    margin: 0px 25px;
+}
+
+.tacnical-section {
+    margin: 50px 0px;
+}
+
+.tacnical-stack-card section img {
+    height: 60px;
+    width: 60px;
+}
+
+.tacnical-stack-card section {
+    display: flex;
+    justify-content: center;
+    border: 2px solid green;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.tacnical-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.tacnical-stack-card p {
+    color: white;
+    padding-top: 15px;
+}
+
+.budget-section img {
+    height: 40px;
+    width: 70px;
+}
+
+.budget-section {
+    display: flex;
+    padding: 30px;
+    border: 2px solid green;
+    align-items: center;
+    border-radius: 8px;
+    margin:50px 0px ;
+}
+
+.budget-section section {
+padding-right: 50px;
+}
+
+.less-budget-section {
+    padding-left:30px ;
+    border-left: 2px solid green;
+}
+
+.less-budget-section  h3 {
+    font-size: 25px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+.budget-section section p  {
+    padding-top: 8px;
+    color: white;
+}
+
+.Proudly-Delivered-division h2 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.Proudly-Delivered-division {
+    margin-bottom: 30px;
+}
+
+.strength-section img {
+    height: 50px;
+    width: 50px;
+}
+
+.strength-section {
+    margin-top: 50px;
+ 
+}
+.strangth-card {
+    background-color: rgb(24, 49, 71);
+    width: 50%;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.strangth-division {
+    display: flex; 
+    margin: 10px 0px;
+}
+.cord {
+    margin-left: 10px;
+}
+
+.strangth-division h3 {
+    color: white;
+    padding: 8px 0px;
+}
+
+.strangth-division p {
+    color: green;
+}
+
+.contener {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height:30px;
+    width: 50px;
+    text-transform: uppercase;
+    font-size: large;
+    font: bold;
+    background-color: black;
+    color: white;
+    border: black;
+}
+
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    overflow: hidden;
+}
+
+.frame img {
+    height: 200px;
+    width:600px;
+}
+
+.frame {
+    height: 200px;
+    width: 500px;
+    /* display: block;
+    justify-content: center;
+    align-items: center; */
+}
